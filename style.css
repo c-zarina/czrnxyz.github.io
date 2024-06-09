@@ -1,37 +1,36 @@
 body {
-    background-color: #333333;
+    background-color: black;
 }
-.right {
-    float: right;
+header {
+    color: aliceblue;
+}
+.head {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3%;
+}
+li {
+    margin-left: 2%;
+    list-style-type: none;
 }
 .greet {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: inline-table;
-    margin-top: 25vw;
-    margin-left: 1vw;
+    color: aliceblue;
+    margin-top: 20%;
+    margin-left: 3%;
+    font-size: 250%;
 }
-.list {
-    display: inline-flex;
-    position: fixed;
-    margin-left: 63vw;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 0;
+.btn {
+    margin-top: 0%;
+    margin-left: 35%;
 }
-p{
-    float: inline-end;
-    margin: 5%;
-    margin-top: 0;
-    font-weight: bold;
-    padding: 3%;
-}
-p:hover {
-    background-color: #007bff;
-    border-radius: 8%;
-    font-weight: bold;
-    padding: 3%;
-}
-button {
+.btn button {
+    background-color: green;
+    color: white;
     border: none;
-    text-decoration: none;
-    background: none;
+    border-radius: none;
+    padding: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50%;
+    font-weight: bold;
 }
